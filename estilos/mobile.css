@@ -1,0 +1,67 @@
+@charset "UTF-8";
+:root{
+    --cor01: #00B8A7;
+    --cor02: #005B4B;
+    --cor03: #F3EADA;
+    --cor04: #cf4c14;
+
+    --fontPadrao: 'Roboto', sans-serif;
+    --fontDestaque: 'Anton', sans-serif;
+ }
+div#primeira {    
+    height: 200px;
+    background-image: url(../imagens/contabilidade.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 2vh;
+    color: var(--cor04);
+ }
+
+ div#primeira > h2 {
+    color: var(--cor04);
+    padding: 5px;
+    position: relative;
+    top: 68%; 
+    font-weight: bolder;
+    background-color: #f3eada9f;
+ }
+ div.segunda > ul {    
+    list-style-type: disc;
+    list-style-position: inside;
+    line-height: 1.5em; 
+    font-size: 18px;      
+ }
+ div.segunda h2 {
+    font-size: 16px;
+    font-family: var(--fontPadrao);
+    color: white;
+    background-color: var(--cor01);
+    padding: 5px;
+ }
+
+ div#terceira {
+    display: block;              
+    height: 400px;    
+ }
+ div#terceira img{  
+    padding-left: 5px;      
+    width: 90vw;
+    text-align: center;
+ }
+ div#terceira > div.segunda {
+    display: block;    
+ }
+ div#terceira > div.segunda >h2 {
+    display: block;   
+ }
+ div#terceira > div#imagem {
+    padding: 5px;
+    padding-left: 0px;
+ }
+ div#terceira > div.segunda p {
+    font-family: var(--fontPadrao);
+    font-size: 1.5em;
+    line-height: 1.3em;        
+}

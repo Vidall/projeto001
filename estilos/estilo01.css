@@ -1,0 +1,143 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300&family=Sriracha&display=swap');
+
+/* formatação global  */
+ * {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ /* html, body {
+    width: 100vw;
+    height: 100vh;
+ } */
+
+ :root{
+    --cor01: #00B8A7;
+    --cor02: #005B4B;
+    --cor03: #F3EADA;
+    --cor04: #cf4c14;
+
+    --fontPadrao: 'Roboto', sans-serif;
+    --fontDestaque: 'Anton', sans-serif;
+ }
+
+
+ /* Formatação do cabeçalho */
+ header {
+    padding: 5px;
+    color: white;
+    font-family: var(--fontDestaque);
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--cor02), var(--cor01));
+ }
+ header h1 {
+    font-family: var(--fontDestaque);
+    font-weight: normal;    
+    padding: 10px;
+ }
+ header >a>img.imagem-header {
+    height: 30px;
+    font-weight: 30px;
+    padding-right: 40px;
+ }
+
+
+
+ /* formatação do corpo */
+
+ /* primeira section */
+ div#primeira {    
+    height: 400px;
+    background-image: url(../imagens/contabilidade.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 3vh;
+          
+ }
+ div#primeira > h2 {
+    padding: 10px;
+    color: var(--cor04);
+    position: relative;
+    top: 83%; 
+    font-weight: bolder;
+    background-color: #f3eada9f;
+    text-align: right;
+ }
+
+ /* Segunda section */
+ div.segunda {
+    padding: 5px;
+    box-shadow: 2px 2px 4px  rgba(0, 0, 0, 0.644);  
+    border-radius: 5px;
+    margin: 10px;
+    font-family: var(--fontPadrao); 
+ }
+ div.segunda h2 {
+    font-family: var(--fontPadrao);
+    color: white;
+    background-color: var(--cor01);
+    padding: 5px;
+ }
+ div.segunda > ul {
+    font-family: var(--fontPadrao);
+    list-style-type: disc;
+    list-style-position: inside;
+    line-height: 1.5em; 
+    font-size: 32px;      
+ }
+ div.segunda > ul > p {
+    padding-bottom: 10px;  
+    font-family: var(--fontPadrao);  
+ }
+
+
+ /* Terceira section */
+ div#terceira {
+    display: grid;
+    grid-template-columns: 1fr 1fr;        
+    height: 400px;
+ }
+ div#terceira > div#imagem {
+    padding: 10px;
+    padding-left: 80px;
+ }
+div#terceira > div.segunda p {
+    font-family: var(--fontPadrao);
+    font-size: 1.9em;
+    line-height: 1.5em;        
+}
+
+/* quarta seção */
+div#quarta{
+    height: 400px;
+    background-image: url(../imagens/ferias-menor.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Rodapé */
+
+div#rodape {
+    font-family: var(--fontDestaque);    
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+footer {
+    padding: 5px;   
+    background-image: linear-gradient(to bottom, var(--cor02), var(--cor01));
+ }
+ footer img {
+    border-radius: 50%;
+ }
+
+
+
+
+ 
