@@ -8,6 +8,12 @@
     --fontPadrao: 'Roboto', sans-serif;
     --fontDestaque: 'Anton', sans-serif;
  }
+ * {
+   margin: 0px;
+   padding: 0px;
+   margin-bottom: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+}
 div#primeira {    
     height: 200px;
     background-image: url(../imagens/contabilidade-menor.png);
