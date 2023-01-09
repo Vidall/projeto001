@@ -6,5 +6,14 @@
     "display": "standalone",
     "orientation": "portrait",
     "scope": "/index.html",
-    "start_url": "/"
+    "start_url": "/",
+    "icons": [    
+        {
+          "src": "images/icons/maskable_icon.png",
+          "sizes": "196x196",
+          "type": "image/png",
+          "purpose": "any maskable"
+        }
+      ]
   }
+
