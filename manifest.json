@@ -1,0 +1,10 @@
+{
+    "name": "consult",
+    "short_name": "consult",
+    "theme_color": "#13ba7c",
+    "background_color": "#10b276",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/index.html",
+    "start_url": "/"
+  }
