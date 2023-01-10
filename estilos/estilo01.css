@@ -26,6 +26,7 @@
 
 /*container*/
 #container {
+   
    min-width: 100px;
    max-width: 1180px;
    margin: auto;

@@ -1,8 +1,8 @@
 {
-    "name": "consult",
+    "name": "PWAExemp",
     "short_name": "consult",
     "theme_color": "#13ba7c",
-    "background_color": "#10b276",
+    "background_color": "#999999",
     "display": "standalone",
     "orientation": "portrait",
     "scope": "/index.html",
